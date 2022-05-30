@@ -10,9 +10,9 @@ export function Footer() {
     <span className="pt-10">Quer saber do que somos capazes? Confira o que nossos clientes têm a dizer sobre nós. Adoramos receber o feedback dos clientes para melhorar nosso trabalho. Leia as avaliações abaixo.</span>
     </div>
     <div className="flex justify-center pt-10">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/TC8NS93zPMY" frameBorder="0" allowFullScreen></iframe>
+    {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/TC8NS93zPMY" frameBorder="0" allowFullScreen></iframe> */}
     </div>
-    <div className="flex justify-between content-center pt-10">
+    <div className="flex text-center flex-col justify-between content-center pt-10 xl lg md:flex-row xl lg md:text-left">
       <div>
       <Image src={LogoImg} className="contain"/>
 
