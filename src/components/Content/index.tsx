@@ -14,8 +14,8 @@ export function Content() {
 <Image src={FogueteImg} className="flex h-auto w-full" alt="" />
 
 <div className="text-indigo-loja flex flex-col justify-center">
-<h1 className="text-5xl font-bold leading-none pb-2">Faça parte do plano Premium</h1>
-<p className='mt-6'>Nosso Plano Premium possibilita uma experiência completa de match com TAXA ZERO. Você só precisa fazer alguns cliques do seu computador que nós cuidamos de tudo!</p>
+<h1 className="text-5xl font-bold leading-none pb-2 text-indigo-900">Faça parte do plano Premium</h1>
+<p className='mt-6 text-indigo-900'>Nosso Plano Premium possibilita uma experiência completa de match com TAXA ZERO. Você só precisa fazer alguns cliques do seu computador que nós cuidamos de tudo!</p>
 <a href="#" className="w-max mt-10 bg-indigo-loja px-6 py-3 text-gray-100 rounded-full">Assinar Premium(esgotado)</a>
 </div>
 
@@ -67,18 +67,18 @@ export function Content() {
 
   <div className="bg-green-0300 text-indigo-loja flex flex-col md:w-1/3 h-auto p-4 relative rounded-xl justify-between">
     <div>
-    <h3 className="font-bold text-2xl my-4">Premium</h3>
-    <h4 className="text-3xl pb-8">R$ 299,00</h4>
-    <p className="text-lg">
+    <h3 className="font-bold text-2xl my-4 text-indigo-900">Premium</h3>
+    <h4 className="text-3xl pb-8 text-indigo-900">R$ 299,00</h4>
+    <p className="text-lg text-indigo-900">
       Nesse plano o milheiro tem direito a isenção da taxa cobrada pelos serviços de pagamentos e logística durante um ano.
     </p>
-    <ul className="mt-10 list-disc ml-6 mb-24">
-      <li>Lista de pedidos</li> 
-      <li>Match com segurança</li> 
-      <li>Recebe em 30 dias</li> 
-      <li>Taxa ZERO</li> 
-      <li>Painel de indicadores</li> 
-      <li>Suporte personalizado</li>
+    <ul className="mt-10 list-disc ml-6 mb-24 text-indigo-900">
+      <li className='text-indigo-900'>Lista de pedidos</li> 
+      <li className='text-indigo-900'>Match com segurança</li> 
+      <li className='text-indigo-900'>Recebe em 30 dias</li> 
+      <li className='text-indigo-900'>Taxa ZERO</li> 
+      <li className='text-indigo-900'>Painel de indicadores</li> 
+      <li className='text-indigo-900'>Suporte personalizado</li>
       </ul>
   </div>
   <div className="flex justify-center">
@@ -113,12 +113,12 @@ export function Content() {
 <Image src={CelBuyImg} className="flex h-auto w-full" alt="" />
 </div>
 
-<div className="flex flex-col gap-6 mt-20 text-white items-center lg xl md:flex-row">
+<div className="flex flex-col gap-6 mt-20 text-white lg xl md:flex-row">
   <div className="lg xs xl:w-1/2 flex sm:w-100">
     <h1 className="text-6xl md:text-8xl text-white">O Match Perfeito!</h1>
   </div>
   <div className="lg xs xl:w-1/2 flex flex-col justify-center text-white">
-    <span className="text-justify text-lg leading-2">Estamos criando um ecossistema de infinitas possibilidades, pois acreditamos que com inovação podemos democratizar o mercado de produtos proporcionando aos envolvidos liberdade e economia! Usamos a tecnologia para dar o match de quem deseja comprar com quem deseja vender.
+    <span className="text-justify text-lg leading-2 ">Estamos criando um ecossistema de infinitas possibilidades, pois acreditamos que com inovação podemos democratizar o mercado de produtos proporcionando aos envolvidos liberdade e economia! Usamos a tecnologia para dar o match de quem deseja comprar com quem deseja vender.
     </span>
     <a href="https://pedidos.buyphone.com.br" className="w-max mt-10 text-indigo-loja px-6 py-3 bg-green-0300 rounded-full">Assinar Premium(esgotado)</a>
   </div>

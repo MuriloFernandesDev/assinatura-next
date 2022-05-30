@@ -6,3 +6,33 @@ body{
   background-color: #201942;
   height: 100vh;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+  color: white;
+}
+
+
+.bg-purple-600 {
+  background-color: #752993;
+}
+.bg-indigo-900 {
+  background-color: #201942;
+}
+.bg-green-300 {
+  background-color: #31F5DC;
+};
+.text-green-300 {
+  color: #31F5DC;
+}
+.text-testimonials{
+  color: #d1d5db;
+}
+.text-indigo-900 {
+  color: #201942;
+}
