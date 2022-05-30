@@ -11,7 +11,7 @@ export function Content() {
 <>
     <div className="bg-green-0300">
 <div className="mx-auto max-w-5xl relative px-4 py-6 flex flex-col sm md:flex-row">
-<Image src={FogueteImg} className="flex h-auto w-full" alt="" />
+<Image src={FogueteImg} width={1100} height={1300} layout='intrinsic' className="flex h-auto w-full" alt="Foguete" />
 
 <div className="text-indigo-loja flex flex-col justify-center">
 <h1 className="text-5xl font-bold leading-none pb-2 text-indigo-900">Faça parte do plano Premium</h1>
@@ -26,15 +26,15 @@ export function Content() {
 <div className='mx-auto max-w-5xl relative px-4 pb-12'>
 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 place-content-center">
  <div className="text-white flex flex-col justify-center items-center mt-12">
-   <Image src={CartaoImg} className="w-64 mt-12" alt="" />
+   <Image src={CartaoImg} className="w-64 mt-12" alt="icon cartao" />
     <span className="text-lg text-center mt-12">Aumente seus lucros com o cartão de crédito.</span>
  </div>
  <div className="text-white flex flex-col justify-center items-center">
-   <Image src={CelularImg} className='w-64' alt=""/>
+   <Image src={CelularImg} className='w-64' alt="icon celular"/>
    <span className="text-lg text-center mt-4">Receba o dinheiro de suas vendas em 30 dias.</span>
 </div>
 <div className="text-white flex flex-col justify-center items-center mt-12">
-   <Image src={SacolaImg} className="w-64 mt-12" alt="" />
+   <Image src={SacolaImg} className="w-64 mt-12" alt="icon sacola" />
     <span className="text-lg text-center mt-12">O produto é enviado para o cliente com segurança.</span>
  </div>
 </div>
@@ -109,8 +109,8 @@ export function Content() {
   </div>
   </div>
   </div>
-<div className="flex align-center mt-20">
-<Image src={CelBuyImg} className="flex h-auto w-full" alt="" />
+<div className="flex align-center mt-20 justify-center">
+<Image src={CelBuyImg} width={800} height={400} layout='intrinsic' className="flex h-auto w-full" alt="icon Celular Buy Phone" />
 </div>
 
 <div className="flex flex-col gap-6 mt-20 text-white lg xl md:flex-row">

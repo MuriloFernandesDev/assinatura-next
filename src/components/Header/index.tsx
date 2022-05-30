@@ -1,4 +1,4 @@
-import logoImg from '../../../public/logo.png'
+import LogoImg from '../../../public/logo.png'
 import NuvemImg from '../../../public/nuvem.png'
 import Image from 'next/image'
 
@@ -6,7 +6,15 @@ export function Header() {
   return (
     <>
     <div className="px-6 py-6 flex justify-between">
-      <Image src={logoImg} className="object-contain" alt="ig.news" />
+      <Image src={LogoImg} width={180} height={30} layout= 'intrinsic' placeholder='blur' alt="logo" className="object-contain" />
+      {/* <Image
+      key={logoImg} 
+      src={logoImg} 
+      width={180} 
+      height={48} 
+      className="object-contain" 
+      alt="logo"/> */}
+      
       <a href="https://pedidos.buyphone.com.br" className="text-indigo-loja bg-gray-100 px-6 py-3 rounded-full"
       >Login</a>
       </div>

@@ -38,7 +38,7 @@ export function Footer() {
 
     <div className="flex text-center flex-col justify-between content-center pt-10 xl lg md:flex-row xl lg md:text-left">
       <div>
-      <Image src={LogoImg} className="contain"/>
+      <Image src={LogoImg} width={180} height={40} layout= 'intrinsic' placeholder='blur' alt="logo" className="contain h-auto" />
 
       <p className="text-gray-100 text-sm">Todos os direitos reservados</p>
       </div>
