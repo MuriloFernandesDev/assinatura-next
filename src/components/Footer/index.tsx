@@ -47,9 +47,9 @@ export function Footer() {
       <p className="text-gray-100 text-sm">Todos os direitos reservados</p>
       </div>
       <div className="flex flex-col text-gray-500">
-      <a href="https://www.instagram.com/buyphone.match/" className="text-gray-100 p-1">Nosso Instagram</a>
-      <a href="https://pedidos.buyphone.com.br p-2" className="text-gray-100 p-1">Cadastre-se</a>
-      <a href="#" className="text-gray-100 p-1">Torne-se Premium (Esgotado)</a>
+      <a href="https://www.instagram.com/buyphone.match/" className="text-gray-100 p-2">Nosso Instagram</a>
+      <a href="https://pedidos.buyphone.com.br p-2" className="text-gray-100 p-2">Cadastre-se</a>
+      <a href="#" className="text-gray-100 p-2">Torne-se Premium (Esgotado)</a>
       </div>
 
     </div>
