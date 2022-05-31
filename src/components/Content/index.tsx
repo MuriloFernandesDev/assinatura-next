@@ -55,8 +55,8 @@ export function Content() {
 <div className="flex flex-col md:flex-row gap-6 mt-20">
   <div className="bg-purple-600 text-white flex flex-col md:w-1/3 h-auto p-4 relative rounded-xl justify-between">
     <div>
-    <h3 className="font-bold text-2xl my-4">Free</h3>
-    <h4 className="text-3xl pb-8">R$0,00</h4>
+    <h2 className="font-bold text-2xl my-4">Free</h2>
+    <h3 className="text-3xl pb-8">R$0,00</h3>
     <p className="text-lg">
       Nessa modalidade, os milheiros contam com as funcionalidades
       básicas da plataforma.
@@ -75,8 +75,8 @@ export function Content() {
 
   <div className="bg-green-0300 text-indigo-loja flex flex-col md:w-1/3 h-auto p-4 relative rounded-xl justify-between">
     <div>
-    <h3 className="font-bold text-2xl my-4 text-indigo-900">Premium</h3>
-    <h4 className="text-3xl pb-8 text-indigo-900">R$ 299,00</h4>
+    <h2 className="font-bold text-2xl my-4 text-indigo-900">Premium</h2>
+    <h3 className="text-3xl pb-8 text-indigo-900">R$ 299,00</h3>
     <p className="text-lg text-indigo-900">
       Nesse plano o milheiro tem direito a isenção da taxa cobrada pelos serviços de pagamentos e logística durante um ano.
     </p>
@@ -96,8 +96,8 @@ export function Content() {
 
   <div className="bg-purple-600 text-white flex flex-col md:w-1/3 h-auto p-4 relative rounded-xl justify-between">
     <div>
-    <h3 className="font-bold text-2xl my-4">Free</h3>
-    <h4 className="text-3xl pb-8">R$VIP</h4>
+    <h2 className="font-bold text-2xl my-4">Free</h2>
+    <h3 className="text-3xl pb-8">R$VIP</h3>
     <p className="text-lg">
       Nessa modalidade, o milheiro que indicar 5 revendedores de iPhones para se cadastrarem em nosso ecossistema, ganhará o acesso VIP com isenção de anuidade e Taxa zero nos serviços.
     </p>
