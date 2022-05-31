@@ -36,21 +36,20 @@ export function Footer() {
                 </div>
                 </div>
 
-    <div className="flex flex-col text-left justify-between pt-10 xl, lg, md:flex-row xl, lg, md:text-center">
+    <div className="flex flex-col justify-between text-center items-center p-2 lg xl md:flex-row
+    lg xl md:text-left">
 
       
-      <div className='flex flex-col pb-5 xl lg md:pt-0'>
+      <div className='flex flex-col'>
       <div className='w-64 h-auto'>
       <Image src={LogoImg} layout= 'fixed' placeholder='blur' alt="logo" className="object-contain" />
       </div>
-
       <p className="text-gray-100 text-sm">Todos os direitos reservados</p>
       </div>
-
       <div className="flex flex-col text-gray-500">
-      <a href="https://www.instagram.com/buyphone.match/" className="text-gray-100">Nosso Instagram</a>
-      <a href="https://pedidos.buyphone.com.br" className="text-gray-100">Cadastre-se</a>
-      <a href="#" className="text-gray-100">Torne-se Premium (Esgotado)</a>
+      <a href="https://www.instagram.com/buyphone.match/" className="text-gray-100 p-2">Nosso Instagram</a>
+      <a href="https://pedidos.buyphone.com.br p-2" className="text-gray-100 p-2">Cadastre-se</a>
+      <a href="#" className="text-gray-100 p-2">Torne-se Premium (Esgotado)</a>
       </div>
 
     </div>
