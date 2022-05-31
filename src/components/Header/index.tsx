@@ -13,7 +13,7 @@ export function Header() {
       <a href="https://pedidos.buyphone.com.br" className="text-indigo-loja bg-gray-100 px-6 py-3 rounded-full"
       >Login</a>
       </div>
-    <div className="mx-auto max-w-5xl relative px-4 mt-10">
+    <div className="mx-auto max-w-5xl relative px-4 mt-10 pt-10">
         <div className="flex flex-col items-center  xl:flex-row xl:text-start">
           <div className="flex flex-col text-gray-100">
             <h1 className="text-6xl md:text-8xl font-bold leading-none ">
