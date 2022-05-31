@@ -16,7 +16,7 @@ export function Header() {
     <div className="mx-auto max-w-5xl relative px-4 mt-10 pt-10">
         <div className="flex flex-col items-center  xl:flex-row xl:text-start">
           <div className="flex flex-col text-gray-100">
-            <h1 className="text-6xl md:text-8xl font-bold leading-none ">
+            <h1 className="text-4xl md:text-8xl font-bold leading-none lg xl md:6xl">
               Seja um assinante Premium
             </h1>
             <p className="mt-6">Promoção de taxa zero por tempo limitado!</p>
