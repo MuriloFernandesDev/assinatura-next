@@ -6,14 +6,9 @@ export function Header() {
   return (
     <>
     <div className="px-6 py-6 flex justify-between">
-      <Image src={LogoImg} width={180} height={30} layout= 'intrinsic' placeholder='blur' alt="logo" className="object-contain" />
-      {/* <Image
-      key={logoImg} 
-      src={logoImg} 
-      width={180} 
-      height={48} 
-      className="object-contain" 
-      alt="logo"/> */}
+      <div className='w-1/5 h-auto'>
+      <Image src={LogoImg} layout= 'fixed' placeholder='blur' alt="logo" className="object-contain" />
+      </div>
       
       <a href="https://pedidos.buyphone.com.br" className="text-indigo-loja bg-gray-100 px-6 py-3 rounded-full"
       >Login</a>
@@ -29,7 +24,9 @@ export function Header() {
               Assinar Premium (Esgotado)
             </a>
           </div>
-          <Image src={NuvemImg} className="flex max-w-lg" alt="nuvem" />
+          <div className='w-full h-auto'>
+      <Image src={NuvemImg} layout= 'responsive' placeholder='blur' alt="nuvem" className="object-contain" />
+      </div>
           </div>
       </div>
       </>
